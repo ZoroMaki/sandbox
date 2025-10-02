@@ -1,7 +1,21 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
+    // "java.project.sourcePaths": ["src"],
+    // "java.project.outputPath": "bin",
+    // "java.project.referencedLibraries": [
+    //     "lib/**/*.jar"
+    // ]
+    // {
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "target/classes",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+        "lib/**/*.jar",
+        "!lib/legacy/**"
+    ],
+    "files.watcherExclude": {
+        "**/target/**": true,
+        "**/node_modules/**": true,
+        "**/.git/objects/**": true
+    }
 }

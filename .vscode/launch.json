@@ -15,7 +15,23 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
+            "vmArgs": "-Xms256m -Xmx768m -XX:TieredStopAtLevel=1 -noverify",
             "projectName": "sandbox_c4ff0a08"
         }
     ]
+    // {
+    //     "version": "0.2.0",
+    //     "configurations": [
+    //         {
+    //             "type": "java",
+    //             "name": "Launch SpringBoot",
+    //             "request": "launch",
+    //             "mainClass": "com.example.Application",
+    //             "projectName": "your-artifact-id",
+    //             "args": "",
+    //             "vmArgs": "-Xms256m -Xmx768m -XX:TieredStopAtLevel=1 -noverify",
+    //             "console": "internalConsole"
+    //         }
+    //     ]
+    // }
 }
